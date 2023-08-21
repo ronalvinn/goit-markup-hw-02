@@ -1,20 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navyblue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --lightslate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: #2E2F4266;
+    --grey: #2E2F42B2;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+}
+
 body {
     font-family: 'roboto';
 }
 
-.first-logo {
+.header-logo {
     font-family: 'raleway';
     font-weight: 800;
 }
 
-.second-logo {
+.footer-logo {
     font-family: 'raleway';
-    color: white;
+    color: var(--white);
     font-weight: 800;
 }
 
-.nav-links {
-    color: #2E2F42;
+.header-nav-links {
+    color: var(--navyblue);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -29,15 +51,17 @@ body {
 
 .contact-mail:hover,
 .contact-no:hover {
-    color: #404BBF;
+    color: var(--ocean);
 }
+
 
 .contact-mail:active {
-color: #404BBF;
+    color: var(--ocean);
 }
 
-.first-section-button {
-    color: #FFF;
+
+.hero-section-button {
+    color: var(--white);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -45,12 +69,12 @@ color: #404BBF;
     line-height: 1.5em;
     letter-spacing: 0.64px;
     border-radius: 4px;
-    background: #4D5AE5;
+    background: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .portfolio-button {
-    color: #4D5AE5;
+    color: var(--iris);
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -59,25 +83,25 @@ color: #404BBF;
     line-height: 1.5em;
     letter-spacing: 0.64px;
     border-radius: 4px;
-    border: 1px solid #E7E9FC;
-    background: #F4F4FD;
+    border: 1px solid var(--cornflower);
+    background: var(--cloud);
 }
 
 
 .portfolio-button:hover {
-    background-color: #404BBF;
-    color: white;
+    background-color:var(--ocean);
+    color: var(--white);
     cursor: pointer;
 }
 
 
 
 .web {
-    color: #4D5AE5;
+    color: var(--iris);
 }
 
 h1 {
-    color: white;
+    color: var(--white);
     color: var(--white, #FFF);
     text-align: center;
     font-family: Roboto;
@@ -88,17 +112,17 @@ h1 {
     letter-spacing: 1.12px;
 }
 
-.first-section {
-    background-color: #2E2F42;
+.hero-section {
+    background-color: var(--navyblue);
     text-align: center;
 }
 
-.fourth-section {
-    background-color: #F4F4FD;
+.team-section {
+    background-color: var(--cloud);
 }
 
-.description {
-    color: #434455;
+.features-description {
+    color: var(--slate);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -109,7 +133,7 @@ h1 {
 
 .features,
 .project {
-    color: #2E2F42;
+    color: var(--navyblue);
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -120,7 +144,7 @@ h1 {
 
 
 h2 {
-    color: #2E2F42;
+    color: var(--navyblue);
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
@@ -132,7 +156,7 @@ h2 {
 }
 
 .team {
-    color: #2E2F42;
+    color: var(--navyblue);
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -143,7 +167,7 @@ h2 {
 }
 
 .job {
-    color: #434455;
+    color: var(--slate);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -155,7 +179,7 @@ h2 {
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--navyblue);
 }
 
 ul {
@@ -165,11 +189,11 @@ ul {
 
 
 footer {
-    background-color: #2E2F42;
+    background-color: var(--navyblue);
 }
 
-.footer-description {
-    color: #F4F4FD;
+.footer-logo-description {
+    color: var(--cloud);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
