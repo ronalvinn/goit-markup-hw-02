@@ -35,7 +35,7 @@ body {
     font-weight: 800;
 }
 
-.header-nav-links {
+.header-links {
     color: var(--navyblue);
     font-size: 16px;
     font-style: normal;
@@ -44,23 +44,23 @@ body {
     letter-spacing: 0.32px;
 }
 
-.contact-mail,
-.contact-no {
+.contact-link{
     font-style: normal;
 }
 
-.contact-mail:hover,
-.contact-no:hover {
+
+.contact-link:hover
+{
     color: var(--ocean);
 }
 
 
-.contact-mail:active {
+.contact-link:active {
     color: var(--ocean);
 }
 
 
-.hero-section-button {
+.hero-button {
     color: var(--white);
     font-family: Roboto;
     font-size: 16px;
@@ -112,12 +112,12 @@ h1 {
     letter-spacing: 1.12px;
 }
 
-.hero-section {
+.hero {
     background-color: var(--navyblue);
     text-align: center;
 }
 
-.team-section {
+.team {
     background-color: var(--cloud);
 }
 
@@ -166,7 +166,7 @@ h2 {
     text-align: center;
 }
 
-.job {
+.role {
     color: var(--slate);
     font-family: Roboto;
     font-size: 16px;
