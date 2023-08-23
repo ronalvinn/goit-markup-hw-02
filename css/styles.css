@@ -21,16 +21,16 @@
 }
 
 body {
-    font-family: 'roboto';
+    font-family: 'Roboto', 'sans serif';
 }
 
 .header-logo {
-    font-family: 'raleway';
+    font-family: 'Raleway', 'sans serif';
     font-weight: 800;
 }
 
 .footer-logo {
-    font-family: 'raleway';
+    font-family: 'Raleway', 'sans serif';
     color: var(--white);
     font-weight: 800;
 }
@@ -38,7 +38,6 @@ body {
 .header-links {
     color: var(--navyblue);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -49,8 +48,7 @@ body {
 }
 
 
-.contact-link:hover
-{
+.contact-link:hover {
     color: var(--ocean);
 }
 
@@ -62,35 +60,46 @@ body {
 
 .hero-button {
     color: var(--white);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.64px;
     border-radius: 4px;
     background: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-family: inherit;
+    outline: none;
+    border: unset;
+    border-radius: 4px;
+    padding: 16px 32px;
+    gap: 10px;
 }
 
 .portfolio-button {
     color: var(--iris);
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.64px;
     border-radius: 4px;
     border: 1px solid var(--cornflower);
     background: var(--cloud);
+    font-family: inherit;
+    padding: 12px 24px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    
 }
 
 
 .portfolio-button:hover {
-    background-color:var(--ocean);
+    background-color: var(--ocean);
     color: var(--white);
+    cursor: pointer;
+    border-color: var(--ocean);
+}
+
+.hero-button{
     cursor: pointer;
 }
 
@@ -104,10 +113,7 @@ h1 {
     color: var(--white);
     color: var(--white, #FFF);
     text-align: center;
-    font-family: Roboto;
     font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
 }
@@ -123,10 +129,7 @@ h1 {
 
 .features-description {
     color: var(--slate);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -134,9 +137,7 @@ h1 {
 .features,
 .project {
     color: var(--navyblue);
-    font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -146,10 +147,7 @@ h1 {
 h2 {
     color: var(--navyblue);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -157,9 +155,7 @@ h2 {
 
 .team {
     color: var(--navyblue);
-    font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -168,10 +164,7 @@ h2 {
 
 .role {
     color: var(--slate);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
     text-align: center;
@@ -194,10 +187,7 @@ footer {
 
 .footer-logo-description {
     color: var(--cloud);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
