@@ -48,7 +48,7 @@ body {
 }
 
 
-.contact-link:hover {
+.contact-link:hover, .header-links:hover {
     color: var(--ocean);
 }
 
@@ -87,7 +87,6 @@ body {
     background: var(--cloud);
     font-family: inherit;
     padding: 12px 24px;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     
 }
 
@@ -97,6 +96,7 @@ body {
     color: var(--white);
     cursor: pointer;
     border-color: var(--ocean);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .hero-button{
@@ -111,7 +111,6 @@ body {
 
 h1 {
     color: var(--white);
-    color: var(--white, #FFF);
     text-align: center;
     font-size: 56px;
     line-height: 60px;
@@ -123,8 +122,12 @@ h1 {
     text-align: center;
 }
 
-.team {
-    background-color: var(--cloud);
+.features-title {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
 
 .features-description {
@@ -134,14 +137,30 @@ h1 {
     letter-spacing: 0.32px;
 }
 
-.features,
-.project {
+.team-title {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
 }
+.team-role {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+
+.team {
+    background-color: var(--cloud);
+}
+
+.team-title, .team-role {
+    text-align: center;
+}
+
+
 
 
 h2 {
@@ -153,14 +172,6 @@ h2 {
     text-transform: capitalize;
 }
 
-.team {
-    color: var(--navyblue);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-    text-align: center;
-}
 
 .role {
     color: var(--slate);
@@ -177,6 +188,21 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+.project {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.project-description{
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 
