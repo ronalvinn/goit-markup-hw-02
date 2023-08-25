@@ -125,7 +125,7 @@ body {
     text-align: center;
 }
 
-.features-title {
+.features-item-title {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
@@ -133,7 +133,7 @@ body {
     letter-spacing: 0.4px;
 }
 
-.features-description {
+.features-item-description {
     color: var(--slate);
     font-size: 16px;
     line-height: 24px;
