@@ -102,6 +102,9 @@ body {
 .hero-button{
     cursor: pointer;
 }
+.hero-button:hover {
+    background-color: var(--ocean);
+}
 
 
 
@@ -109,7 +112,7 @@ body {
     color: var(--iris);
 }
 
-h1 {
+.hero-title {
     color: var(--white);
     text-align: center;
     font-size: 56px;
@@ -137,14 +140,14 @@ h1 {
     letter-spacing: 0.32px;
 }
 
-.team-title {
+.team-item-title {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
 }
-.team-role {
+.team-item-role {
     color: var(--slate);
     font-size: 16px;
     line-height: 24px;
@@ -156,14 +159,14 @@ h1 {
     background-color: var(--cloud);
 }
 
-.team-title, .team-role {
+.team-item-title, .team-item-role {
     text-align: center;
 }
 
 
 
 
-h2 {
+.section-title {
     color: var(--navyblue);
     text-align: center;
     font-size: 36px;
@@ -190,7 +193,7 @@ ul {
     list-style-type: none;
 }
 
-.project {
+.project-item-title {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
@@ -198,7 +201,7 @@ ul {
     letter-spacing: 0.4px;
 }
 
-.project-description{
+.project-item-description {
     color: var(--slate);
     font-size: 16px;
     line-height: 24px;
